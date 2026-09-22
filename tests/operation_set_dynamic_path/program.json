@@ -1,0 +1,36 @@
+{
+  "inputs": [
+    "path"
+  ],
+  "variables": {
+    "obj": {
+      "type": "literal",
+      "data": {
+        "a": {}
+      }
+    }
+  },
+  "operations": [
+    {
+      "type": "set",
+      "arguments": {
+        "target_var": {
+          "type": "literal",
+          "data": "obj"
+        },
+        "path": {
+          "type": "input",
+          "data": "path"
+        },
+        "value": {
+          "type": "literal",
+          "data": 5
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "obj"
+  }
+}

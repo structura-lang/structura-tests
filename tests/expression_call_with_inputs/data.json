@@ -1,0 +1,14 @@
+{
+  "f": {
+    "inputs": [
+      "a",
+      "b"
+    ],
+    "variables": {},
+    "operations": [],
+    "output": {
+      "type": "input",
+      "data": "a"
+    }
+  }
+}

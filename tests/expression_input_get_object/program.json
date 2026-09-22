@@ -1,0 +1,41 @@
+{
+  "inputs": [
+    "obj"
+  ],
+  "variables": {
+    "val": {
+      "type": "literal",
+      "data": null
+    }
+  },
+  "operations": [
+    {
+      "type": "store",
+      "arguments": {
+        "value": {
+          "type": "get",
+          "data": {
+            "from": {
+              "type": "input",
+              "data": "obj"
+            },
+            "path": {
+              "type": "literal",
+              "data": [
+                "field"
+              ]
+            }
+          }
+        },
+        "target_var": {
+          "type": "literal",
+          "data": "val"
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "val"
+  }
+}

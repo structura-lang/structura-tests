@@ -1,0 +1,42 @@
+{
+  "inputs": [
+    "arr"
+  ],
+  "variables": {
+    "last": {
+      "type": "literal",
+      "data": null
+    }
+  },
+  "operations": [
+    {
+      "type": "for_each",
+      "arguments": {
+        "in": {
+          "type": "input",
+          "data": "arr"
+        },
+        "as": "item",
+        "operations": [
+          {
+            "type": "store",
+            "arguments": {
+              "value": {
+                "type": "loop",
+                "data": "item"
+              },
+              "target_var": {
+                "type": "literal",
+                "data": "last"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "last"
+  }
+}

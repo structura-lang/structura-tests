@@ -1,0 +1,30 @@
+{
+  "inputs": [
+    "num"
+  ],
+  "variables": {
+    "result": {
+      "type": "literal",
+      "data": null
+    }
+  },
+  "operations": [
+    {
+      "type": "store",
+      "arguments": {
+        "value": {
+          "type": "input",
+          "data": "num"
+        },
+        "target_var": {
+          "type": "literal",
+          "data": "result"
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "result"
+  }
+}

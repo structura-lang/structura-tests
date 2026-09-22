@@ -1,0 +1,11 @@
+{
+  "f": {
+    "inputs": [],
+    "variables": {},
+    "operations": [],
+    "output": {
+      "type": "literal",
+      "data": 42
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "inputs": [
+    "f"
+  ],
+  "variables": {
+    "res": {
+      "type": "literal",
+      "data": null
+    }
+  },
+  "operations": [
+    {
+      "type": "store",
+      "arguments": {
+        "value": {
+          "type": "call",
+          "data": {
+            "function": {
+              "type": "input",
+              "data": "f"
+            },
+            "inputs_from": {}
+          }
+        },
+        "target_var": {
+          "type": "literal",
+          "data": "res"
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "res"
+  }
+}

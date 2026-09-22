@@ -1,0 +1,14 @@
+{
+  "inputs": [],
+  "variables": {},
+  "operations": [
+    {
+      "type": "return",
+      "arguments": {}
+    }
+  ],
+  "output": {
+    "type": "literal",
+    "data": null
+  }
+}

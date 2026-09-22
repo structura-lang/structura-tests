@@ -1,0 +1,11 @@
+{
+  "inputs": [],
+  "variables": {
+    "bad": 5
+  },
+  "operations": [],
+  "output": {
+    "type": "literal",
+    "data": null
+  }
+}

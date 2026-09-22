@@ -1,0 +1,40 @@
+{
+  "inputs": [],
+  "variables": {
+    "y": {
+      "type": "literal",
+      "data": 0
+    }
+  },
+  "operations": [
+    {
+      "type": "if",
+      "arguments": {
+        "condition": {
+          "type": "literal",
+          "data": true
+        },
+        "then": [
+          {
+            "type": "store",
+            "arguments": {
+              "value": {
+                "type": "literal",
+                "data": 5
+              },
+              "target_var": {
+                "type": "literal",
+                "data": "y"
+              }
+            }
+          }
+        ],
+        "else": []
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "y"
+  }
+}

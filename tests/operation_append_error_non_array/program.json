@@ -1,0 +1,28 @@
+{
+  "inputs": [],
+  "variables": {
+    "notArray": {
+      "type": "literal",
+      "data": 5
+    }
+  },
+  "operations": [
+    {
+      "type": "append",
+      "arguments": {
+        "target_var": {
+          "type": "literal",
+          "data": "notArray"
+        },
+        "value": {
+          "type": "literal",
+          "data": "a"
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "notArray"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "inputs": [],
+  "variables": {
+    "arr": {
+      "type": "literal",
+      "data": [
+        1,
+        2
+      ]
+    }
+  },
+  "operations": [
+    {
+      "type": "set",
+      "arguments": {
+        "target_var": {
+          "type": "literal",
+          "data": "arr"
+        },
+        "index": {
+          "type": "literal",
+          "data": 5
+        },
+        "value": {
+          "type": "literal",
+          "data": 10
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "arr"
+  }
+}

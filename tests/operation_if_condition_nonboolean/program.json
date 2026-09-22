@@ -1,0 +1,21 @@
+{
+  "inputs": [],
+  "variables": {},
+  "operations": [
+    {
+      "type": "if",
+      "arguments": {
+        "condition": {
+          "type": "literal",
+          "data": "true"
+        },
+        "then": [],
+        "else": []
+      }
+    }
+  ],
+  "output": {
+    "type": "literal",
+    "data": null
+  }
+}

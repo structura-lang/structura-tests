@@ -1,0 +1,23 @@
+{
+  "out": {
+    "inputs": [],
+    "operations": [
+      {
+        "type": "call",
+        "data": {
+          "function": {
+            "type": "variable",
+            "data": "self"
+          },
+          "inputs_from": {}
+        }
+      }
+    ],
+    "output": {
+      "type": "literal",
+      "data": null
+    },
+    "variables": {}
+  },
+  "error": false
+}

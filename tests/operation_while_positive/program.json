@@ -1,0 +1,56 @@
+{
+  "inputs": [],
+  "variables": {
+    "cond": {
+      "type": "literal",
+      "data": true
+    },
+    "cnt": {
+      "type": "literal",
+      "data": 0
+    }
+  },
+  "operations": [
+    {
+      "type": "while",
+      "arguments": {
+        "condition": {
+          "type": "variable",
+          "data": "cond"
+        },
+        "operations": [
+          {
+            "type": "store",
+            "arguments": {
+              "value": {
+                "type": "literal",
+                "data": false
+              },
+              "target_var": {
+                "type": "literal",
+                "data": "cond"
+              }
+            }
+          },
+          {
+            "type": "store",
+            "arguments": {
+              "value": {
+                "type": "literal",
+                "data": 1
+              },
+              "target_var": {
+                "type": "literal",
+                "data": "cnt"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "cnt"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "inputs": [],
+  "variables": {},
+  "operations": [
+    {
+      "type": "break",
+      "arguments": {}
+    }
+  ],
+  "output": {
+    "type": "literal",
+    "data": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "inputs": [],
+  "variables": {
+    "cnt": {
+      "type": "literal",
+      "data": 0
+    }
+  },
+  "operations": [
+    {
+      "type": "while",
+      "arguments": {
+        "condition": {
+          "type": "literal",
+          "data": false
+        },
+        "operations": []
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "cnt"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "inputs": [],
+  "variables": {},
+  "operations": [],
+  "output": {
+    "type": "call",
+    "data": {
+      "function": {
+        "type": "runtime",
+        "data": "add"
+      },
+      "inputs_from": {
+        "a": {
+          "type": "literal",
+          "data": 2
+        },
+        "b": {
+          "type": "literal",
+          "data": 3
+        }
+      }
+    }
+  }
+}

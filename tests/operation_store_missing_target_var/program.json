@@ -1,0 +1,19 @@
+{
+  "inputs": [],
+  "variables": {},
+  "operations": [
+    {
+      "type": "store",
+      "arguments": {
+        "value": {
+          "type": "literal",
+          "data": 5
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "literal",
+    "data": null
+  }
+}

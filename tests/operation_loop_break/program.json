@@ -1,0 +1,52 @@
+{
+  "inputs": [],
+  "variables": {
+    "items": {
+      "type": "literal",
+      "data": [
+        1,
+        2,
+        3
+      ]
+    },
+    "cur": {
+      "type": "literal",
+      "data": null
+    }
+  },
+  "operations": [
+    {
+      "type": "for_each",
+      "arguments": {
+        "in": {
+          "type": "variable",
+          "data": "items"
+        },
+        "as": "item",
+        "operations": [
+          {
+            "type": "store",
+            "arguments": {
+              "value": {
+                "type": "loop",
+                "data": "item"
+              },
+              "target_var": {
+                "type": "literal",
+                "data": "cur"
+              }
+            }
+          },
+          {
+            "type": "break",
+            "arguments": {}
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "cur"
+  }
+}

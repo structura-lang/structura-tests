@@ -1,0 +1,30 @@
+{
+  "inputs": [],
+  "variables": {
+    "obj": {
+      "type": "literal",
+      "data": {
+        "a": {
+          "b": 5
+        }
+      }
+    }
+  },
+  "operations": [],
+  "output": {
+    "type": "get",
+    "data": {
+      "from": {
+        "type": "variable",
+        "data": "obj"
+      },
+      "path": {
+        "type": "literal",
+        "data": [
+          "a",
+          "b"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "inputs": [],
+  "variables": {},
+  "operations": [
+    {
+      "type": "for_each",
+      "arguments": {
+        "in": {
+          "type": "literal",
+          "data": 42
+        },
+        "as": "item",
+        "operations": []
+      }
+    }
+  ],
+  "output": {
+    "type": "literal",
+    "data": null
+  }
+}

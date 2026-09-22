@@ -1,0 +1,35 @@
+{
+  "inputs": [],
+  "variables": {
+    "arr": {
+      "type": "literal",
+      "data": [
+        1,
+        2
+      ]
+    },
+    "result": {
+      "type": "literal",
+      "data": null
+    }
+  },
+  "operations": [
+    {
+      "type": "append",
+      "arguments": {
+        "value": {
+          "type": "literal",
+          "data": 3
+        },
+        "target_var": {
+          "type": "literal",
+          "data": "arr"
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "arr"
+  }
+}

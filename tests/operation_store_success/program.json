@@ -1,0 +1,28 @@
+{
+  "inputs": [],
+  "variables": {
+    "x": {
+      "type": "literal",
+      "data": {}
+    }
+  },
+  "operations": [
+    {
+      "type": "store",
+      "arguments": {
+        "value": {
+          "type": "literal",
+          "data": 42
+        },
+        "target_var": {
+          "type": "literal",
+          "data": "x"
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "x"
+  }
+}

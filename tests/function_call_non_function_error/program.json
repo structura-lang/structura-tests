@@ -1,0 +1,20 @@
+{
+  "inputs": [],
+  "variables": {},
+  "operations": [
+    {
+      "type": "call",
+      "data": {
+        "function": {
+          "type": "literal",
+          "data": 123
+        },
+        "inputs_from": {}
+      }
+    }
+  ],
+  "output": {
+    "type": "literal",
+    "data": null
+  }
+}

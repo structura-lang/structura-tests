@@ -1,0 +1,49 @@
+{
+  "inputs": [],
+  "variables": {
+    "result": {
+      "type": "literal",
+      "data": null
+    }
+  },
+  "operations": [
+    {
+      "type": "store",
+      "arguments": {
+        "value": {
+          "type": "call",
+          "data": {
+            "function": {
+              "type": "literal",
+              "data": {
+                "inputs": [
+                  "v"
+                ],
+                "variables": {},
+                "operations": [],
+                "output": {
+                  "type": "input",
+                  "data": "v"
+                }
+              }
+            },
+            "inputs_from": {
+              "v": {
+                "type": "literal",
+                "data": 123
+              }
+            }
+          }
+        },
+        "target_var": {
+          "type": "literal",
+          "data": "result"
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "result"
+  }
+}

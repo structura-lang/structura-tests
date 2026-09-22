@@ -1,0 +1,38 @@
+{
+  "inputs": [],
+  "variables": {
+    "arr": {
+      "type": "literal",
+      "data": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "operations": [
+    {
+      "type": "set",
+      "arguments": {
+        "target_var": {
+          "type": "literal",
+          "data": "arr"
+        },
+        "path": {
+          "type": "literal",
+          "data": [
+            "0"
+          ]
+        },
+        "value": {
+          "type": "literal",
+          "data": 9
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "arr"
+  }
+}

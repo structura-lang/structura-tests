@@ -1,0 +1,14 @@
+{
+  "inputs": [],
+  "variables": {
+    "myVar": {
+      "type": "literal",
+      "data": 10
+    }
+  },
+  "operations": [],
+  "output": {
+    "type": "variable",
+    "data": "myvar"
+  }
+}

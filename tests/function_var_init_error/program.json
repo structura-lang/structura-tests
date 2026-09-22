@@ -1,0 +1,18 @@
+{
+  "inputs": [],
+  "variables": {
+    "a": {
+      "type": "literal",
+      "data": 1
+    },
+    "b": {
+      "type": "variable",
+      "data": "missing"
+    }
+  },
+  "operations": [],
+  "output": {
+    "type": "variable",
+    "data": "b"
+  }
+}

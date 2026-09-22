@@ -1,0 +1,29 @@
+{
+  "inputs": [],
+  "variables": {
+    "arr": {
+      "type": "literal",
+      "data": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "operations": [],
+  "output": {
+    "type": "get",
+    "data": {
+      "from": {
+        "type": "variable",
+        "data": "arr"
+      },
+      "path": {
+        "type": "literal",
+        "data": [
+          "0"
+        ]
+      }
+    }
+  }
+}

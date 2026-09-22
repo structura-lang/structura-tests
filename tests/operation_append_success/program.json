@@ -1,0 +1,28 @@
+{
+  "inputs": [],
+  "variables": {
+    "list": {
+      "type": "literal",
+      "data": []
+    }
+  },
+  "operations": [
+    {
+      "type": "append",
+      "arguments": {
+        "target_var": {
+          "type": "literal",
+          "data": "list"
+        },
+        "value": {
+          "type": "literal",
+          "data": "a"
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "list"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "inputs": [],
+  "variables": {
+    "counter": {
+      "type": "literal",
+      "data": 0
+    }
+  },
+  "operations": [
+    {
+      "type": "while",
+      "arguments": {
+        "condition": {
+          "type": "literal",
+          "data": false
+        },
+        "operations": [
+          {
+            "type": "store",
+            "arguments": {
+              "value": {
+                "type": "literal",
+                "data": 1
+              },
+              "target_var": {
+                "type": "literal",
+                "data": "counter"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "counter"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "inputs": [],
+  "variables": {},
+  "operations": [],
+  "output": {
+    "type": "literal",
+    "data": {
+      "a": 1,
+      "b": "x"
+    }
+  }
+}

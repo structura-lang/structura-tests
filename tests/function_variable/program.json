@@ -1,0 +1,28 @@
+{
+  "inputs": [],
+  "variables": {
+    "msg": {
+      "type": "literal",
+      "data": "hi"
+    }
+  },
+  "operations": [
+    {
+      "type": "store",
+      "arguments": {
+        "value": {
+          "type": "literal",
+          "data": "world"
+        },
+        "target_var": {
+          "type": "literal",
+          "data": "msg"
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "msg"
+  }
+}

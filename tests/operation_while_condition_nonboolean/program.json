@@ -1,0 +1,20 @@
+{
+  "inputs": [],
+  "variables": {},
+  "operations": [
+    {
+      "type": "while",
+      "arguments": {
+        "condition": {
+          "type": "literal",
+          "data": "yes"
+        },
+        "operations": []
+      }
+    }
+  ],
+  "output": {
+    "type": "literal",
+    "data": null
+  }
+}

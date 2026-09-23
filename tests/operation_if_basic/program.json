@@ -1,6 +1,11 @@
 {
   "inputs": [],
-  "variables": {},
+  "variables": {
+    "result": {
+      "type": "literal",
+      "value": {}
+    }
+  },
   "operations": [
     {
       "type": "if",

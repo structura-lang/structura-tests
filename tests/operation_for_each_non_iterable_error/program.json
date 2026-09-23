@@ -9,7 +9,6 @@
           "type": "literal",
           "data": 42
         },
-        "as": "item",
         "operations": []
       }
     }

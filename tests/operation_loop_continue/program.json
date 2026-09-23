@@ -22,7 +22,6 @@
           "type": "variable",
           "data": "items"
         },
-        "as": "item",
         "operations": [
           {
             "type": "store",

@@ -8,6 +8,10 @@
         2,
         3
       ]
+    },
+    "last": {
+      "type": "literal",
+      "data": {}
     }
   },
   "operations": [
@@ -18,7 +22,6 @@
           "type": "variable",
           "data": "arr"
         },
-        "as": "item",
         "operations": [
           {
             "type": "store",

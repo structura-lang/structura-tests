@@ -1,0 +1,45 @@
+{
+  "inputs": [],
+  "variables": {
+    "items": {
+      "type": "literal",
+      "data": [
+        1
+      ]
+    }
+  },
+  "operations": [
+    {
+      "type": "while",
+      "arguments": {
+        "condition": {
+          "type": "literal",
+          "data": true
+        },
+        "operations": [
+          {
+            "type": "append",
+            "arguments": {
+              "value": {
+                "type": "literal",
+                "data": 2
+              },
+              "target_var": {
+                "type": "literal",
+                "data": "items"
+              }
+            }
+          },
+          {
+            "type": "break",
+            "arguments": {}
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "items"
+  }
+}

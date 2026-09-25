@@ -73,7 +73,10 @@ func runCase(base, name string) caseResult {
 	}
 
 	if passed {
-		result, execErr = interpreter.Execute(prog, inp)
+		r := interpreter.NewRuntime()
+		r.RegisterFunction("add", add, []string{"a", "b"})
+
+		result, execErr = interpreter.Execute(prog, inp, r)
 		if exp.Error {
 			if execErr == nil && passed {
 				passed = false
@@ -143,4 +146,18 @@ func main() {
 	}
 
 	fmt.Fprintf(f, "\nTotal: %d, Passed: %d, Failed: %d\n", total, passedCount, total-passedCount)
+}
+
+func add(inputs map[string]any) (any, error) {
+	a, aOk := inputs["a"].(float64)
+	if !aOk {
+		return nil, fmt.Errorf("Input `a` missing")
+	}
+
+	b, bOk := inputs["b"].(float64)
+	if !bOk {
+		return nil, fmt.Errorf("Input `b` missing")
+	}
+
+	return a + b, nil
 }

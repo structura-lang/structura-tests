@@ -3,7 +3,22 @@
   "variables": {},
   "operations": [],
   "output": {
-    "type": "runtime",
-    "data": "add"
+    "type": "call",
+    "data": {
+      "function": {
+        "type": "runtime",
+        "data": "add"
+      },
+      "inputs_from": {
+        "a": {
+          "type": "literal",
+          "data": 1
+        },
+        "b": {
+          "type": "literal",
+          "data": 2
+        }
+      }
+    }
   }
 }

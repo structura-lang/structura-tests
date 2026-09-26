@@ -1,0 +1,45 @@
+{
+  "inputs": [],
+  "variables": {
+    "a": {
+      "type": "literal",
+      "data": [1, 2, 3, 4, 5]
+    },
+    "b": {
+      "type": "literal",
+      "data": null
+    }
+  },
+  "operations": [
+    {
+      "type": "store",
+      "arguments": {
+        "target_var": {
+          "type": "literal",
+          "data": "b"
+        },
+        "value": {
+          "type": "variable",
+          "data": "a"
+        }
+      }
+    },
+    {
+      "type": "append",
+      "arguments": {
+        "target_var": {
+          "type": "literal",
+          "data": "b"
+        },
+        "value": {
+          "type": "literal",
+          "data": 6
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "a"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "inputs": ["map"],
+  "variables": {
+    "a": {
+      "type": "input",
+      "data": "map"
+    }
+  },
+  "operations": [
+    {
+      "type": "set",
+      "arguments": {
+        "target_var": {
+          "type": "literal",
+          "data": "a"
+        },
+        "path": {
+          "type": "literal",
+          "data": ["world"]
+        },
+        "value": {
+          "type": "literal",
+          "data": 3
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "input",
+    "data": "map"
+  }
+}

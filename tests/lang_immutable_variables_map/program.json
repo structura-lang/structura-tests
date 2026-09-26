@@ -1,0 +1,52 @@
+{
+  "inputs": [],
+  "variables": {
+    "a": {
+      "type": "literal",
+      "data": {
+        "hello": 1,
+        "world": 2
+      }
+    },
+    "b": {
+      "type": "literal",
+      "data": null
+    }
+  },
+  "operations": [
+    {
+      "type": "store",
+      "arguments": {
+        "target_var": {
+          "type": "literal",
+          "data": "b"
+        },
+        "value": {
+          "type": "variable",
+          "data": "a"
+        }
+      }
+    },
+    {
+      "type": "set",
+      "arguments": {
+        "target_var": {
+          "type": "literal",
+          "data": "b"
+        },
+        "path": {
+          "type": "literal",
+          "data": ["world"]
+        },
+        "value": {
+          "type": "literal",
+          "data": 3
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "a"
+  }
+}

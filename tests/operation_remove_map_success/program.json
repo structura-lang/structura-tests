@@ -1,32 +1,33 @@
 {
   "inputs": [],
   "variables": {
-    "arr": {
+    "obj": {
       "type": "literal",
-      "data": [
-        1,
-        2,
-        3
-      ]
+      "data": {
+        "a": 1,
+        "b": 2
+      }
     }
   },
   "operations": [
     {
-      "type": "delete",
+      "type": "remove",
       "arguments": {
         "target_var": {
           "type": "literal",
-          "data": "arr"
+          "data": "obj"
         },
-        "index": {
+        "path": {
           "type": "literal",
-          "data": 5
+          "data": [
+            "b"
+          ]
         }
       }
     }
   ],
   "output": {
     "type": "variable",
-    "data": "arr"
+    "data": "obj"
   }
 }

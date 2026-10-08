@@ -12,7 +12,7 @@
   },
   "operations": [
     {
-      "type": "delete",
+      "type": "remove",
       "arguments": {
         "target_var": {
           "type": "literal",

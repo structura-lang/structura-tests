@@ -1,28 +1,30 @@
 {
-    "inputs": ["array"],
-    "variables": {
-        "a": {
-            "type": "input",
-            "data": "array"
-        }
-    },
-    "operations": [
-        {
-            "type": "append",
-            "arguments": {
-                "target_var": {
-                    "type": "literal",
-                    "data": "a"
-                },
-                "value": {
-                    "type": "literal",
-                    "data": 6
-                }
-            }
-        }
-    ],
-    "output": {
-        "type": "input",
-        "data": "array"
+  "inputs": [
+    "array"
+  ],
+  "variables": {
+    "a": {
+      "type": "input",
+      "data": "array"
     }
+  },
+  "operations": [
+    {
+      "type": "append",
+      "arguments": {
+        "target_var": {
+          "type": "literal",
+          "data": "a"
+        },
+        "value": {
+          "type": "literal",
+          "data": 6
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "input",
+    "data": "array"
+  }
 }

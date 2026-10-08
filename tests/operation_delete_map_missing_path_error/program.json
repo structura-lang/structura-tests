@@ -1,36 +1,33 @@
 {
-  "inputs": [
-    "map"
-  ],
+  "inputs": [],
   "variables": {
-    "a": {
-      "type": "input",
-      "data": "map"
+    "obj": {
+      "type": "literal",
+      "data": {
+        "a": 1,
+        "b": 2
+      }
     }
   },
   "operations": [
     {
-      "type": "set",
+      "type": "delete",
       "arguments": {
         "target_var": {
           "type": "literal",
-          "data": "a"
+          "data": "obj"
         },
         "path": {
           "type": "literal",
           "data": [
-            "world"
+            "c"
           ]
-        },
-        "value": {
-          "type": "literal",
-          "data": 3
         }
       }
     }
   ],
   "output": {
-    "type": "input",
-    "data": "map"
+    "type": "variable",
+    "data": "obj"
   }
 }

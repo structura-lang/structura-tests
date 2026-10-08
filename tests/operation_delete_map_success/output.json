@@ -1,7 +1,6 @@
 {
   "out": {
-    "hello": 1,
-    "world": 2
+    "a": 1
   },
   "error": false
 }

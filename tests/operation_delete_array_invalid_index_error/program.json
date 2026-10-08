@@ -1,0 +1,32 @@
+{
+  "inputs": [],
+  "variables": {
+    "arr": {
+      "type": "literal",
+      "data": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "operations": [
+    {
+      "type": "delete",
+      "arguments": {
+        "target_var": {
+          "type": "literal",
+          "data": "arr"
+        },
+        "index": {
+          "type": "literal",
+          "data": 5
+        }
+      }
+    }
+  ],
+  "output": {
+    "type": "variable",
+    "data": "arr"
+  }
+}

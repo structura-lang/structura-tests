@@ -1,4 +1,7 @@
 {
-    "out": {"hello": 1, "world": 2},
-    "error": false
+  "out": {
+    "hello": 1,
+    "world": 2
+  },
+  "error": false
 }

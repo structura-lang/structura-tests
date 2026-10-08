@@ -36,7 +36,9 @@
         },
         "path": {
           "type": "literal",
-          "data": ["world"]
+          "data": [
+            "world"
+          ]
         },
         "value": {
           "type": "literal",
